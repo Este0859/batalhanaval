@@ -1,4 +1,4 @@
-var posicaoAleatoria = 1 + Math.floor(Math.random() * 5);
+var posicaoAleatoria = 1 + Math.floor(Math.random() * 7);
 var parte1 = posicaoAleatoria;
 var parte2 = parte1+1;
 var parte3 = parte2 +1;
@@ -12,9 +12,9 @@ var foiAfundado = false;
 
 while (foiAfundado == false) {
 
-   jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 7:");
+   jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 8:");
 
-   if (jogada < 1 || jogada > 7) {
+   if (jogada < 1 || jogada > 8) {
 
       alert("Jogada inválida. Tenta de novo!");
 
