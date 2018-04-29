@@ -1,4 +1,4 @@
-var posicaoAleatoria = 1 + Math.floor(Math.random() * 7);
+var posicaoAleatoria = 1 + Math.floor(Math.random() * 5); // Define a a vaiável posicaoAleatoria como um número natural ente um e cinco, sendo esta a razão pela qul está escrito 
 var parte1 = posicaoAleatoria;
 var parte2 = parte1+1;
 var parte3 = parte2 +1;
