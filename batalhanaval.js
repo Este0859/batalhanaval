@@ -33,7 +33,7 @@ while (foiAfundado == false) { // Este loop while continua a ser executado até 
 
                 foiAfundado = true; // Define a variável foiAfundado como tendo valor lógico positivo, parando o loop while
 
-                alert("Navio totalmente afundado! A tua precisão é de" + 300 / totalJogadas + "%"); // O jogador é alertado com a mensagem numa caixa do browser "Navio totalmente afundado!"
+                alert("Navio totalmente afundado! A tua precisão é de " + Math.floor( 300 / totalJogadas) + " %"); // O jogador é alertado com a mensagem numa caixa do browser "Navio totalmente afundado!"
                 
             }
 
