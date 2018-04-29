@@ -21,12 +21,8 @@ while (foiAfundado == false) {
    } else {
 
       totalJogadas = totalJogadas + 1;
-      
-       if (jogada == parte1) {
-          
-         alert("Acertaste numa parte!");
 
-      if (jogada == parte2 || jogada == parte3) {
+      if (jogada == parte1 || jogada == parte2 || jogada == parte3) {
 
          alert("Acertaste em mais uma parte!");
 
@@ -44,9 +40,7 @@ while (foiAfundado == false) {
 
          alert("Falhaste...");
 
-      }
-   
-   }       
+      }      
 
    }
 
