@@ -14,7 +14,7 @@ while (foiAfundado == false) {
 
    jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 10:");
 
-   if (jogada < 1 || jogada > 8) {
+   if (jogada < 1 || jogada > 10) {
 
       alert("Jogada inválida. Tenta de novo!");
 
