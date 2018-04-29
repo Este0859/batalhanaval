@@ -31,13 +31,13 @@ while (foiAfundado == false) { // Este loop while continua a ser executado até 
 
             if (atingidas == 3) { // Se o valor da variável atingidas for três, é executado o código a seguir
 
-                foiAfundado = true;
+                foiAfundado = true; // Define a variável foiAfundado como tendo valor lógico positivo, parando o loop while
 
                 alert("Navio totalmente afundado!"); // O jogador é alertado com a mensagem numa caixa do browser "Navio totalmente afundado!"
 
             }
 
-        } else { // Se o jogador não iver, na sua jogada, acertado em nenhum dos valores das variáveis partes, então é alertado com a mensagem, numa caixa do browser, "Falhaste..."
+        } else { // Se o jogador não tiver, na sua jogada, acertado em nenhum dos valores das variáveis partes, então é alertado com a mensagem, numa caixa do browser, "Falhaste..."
 
             alert("Falhaste...");
 
