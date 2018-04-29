@@ -1,4 +1,4 @@
-var posicaoAleatoria = 1 + Math.floor(Math.random() * 9); // Define a a vaiável posicaoAleatoria como um número natural ente um e 10, sendo esta a razão pela qual está escrito "Math.random() * 9", que defineo intervalo [0, 9[, sendo depois arredondado, e transformado assim num número natural, ao qual é somado uma unidade
+var posicaoAleatoria = 1 + Math.floor(Math.random() * 7); // Define a a vaiável posicaoAleatoria como um número natural ente um e sete, sendo esta a razão pela qual está escrito "Math.random() * 7", que define o intervalo [0, 7[, sendo depois arredondado, e transformado assim num número natural, ao qual é somado uma unidade
 
 var parte1 = posicaoAleatoria; // Define a variável parte 1 como a posição aleatória, sendo as outras variáveis parte 2 e parte 3 dependentes dela
 var parte2 = parte1 + 1;
